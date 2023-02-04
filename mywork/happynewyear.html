@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2023</title>
+	<style type="text/css">
+		*{padding:0;margin:0;list-style: none;text-decoration: none;}
+		.div{width:680px;height:930px;background:url('兔子.jpg') no-repeat center center;background-size:cover;padding-left:622px;padding-right:615px;}
+        .div ul{margin-left:103px;width:509px;height:860px;float:left;}
+        .div ul{text-align: center;margin-top:70px;color:#54baaf;}
+        .div ul li{font-size:40px;font-weight: bolder;margin-top:20px; display:none;}
+	</style>
+</head>
+<body>
+	<div class='div'>
+		<ul>
+			<li class='active'><h2>秋刀鱼祝你2023新年快乐</h2></li>
+			<li>一帆风顺吉星照</li>
+			<li>万事如意步步高</li>
+			<li>四季平安春常在</li>
+			<li>财源滚滚福年来</li>
+			<li>旧岁再添几个喜</li>
+			<li>新年更上一层楼</li>
+		</ul>
+	</div>
+<script type="text/javascript">
+ var num =0;
+ var line = document.getElementsByTagName('ul')[0].children;
+ var timer = setInterval(function(){
+			line[num].style.display = 'block';
+			num++;
+		},500);
+ setTimeout(function()
+		{
+            clearInterval('timer');
+		},7000);
+
+</script>
+
+</body>
+</html>
